@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="LearnToCook.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnToCook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+          Margin="10">
+        <StackPanel>
+            <TextBlock Text="Created by:"
+                       Style="{StaticResource HeaderTextBlockStyle}" />
+            <Image Source="Assets/Images/PROFILE.jpg" />
+            <TextBlock Text="Dafydd Thomas"
+                       Style="{StaticResource SubheaderTextBlockStyle}" />
+
+            <TextBlock Text="References:"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,10" />
+            <TextBlock Text="All images were taken from Google Images search."
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,10" />
+            <TextBlock Text="Video taken from YouTube"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,10" />
+            <TextBlock Text="Cooking: A Commonsense Guide by Jane Price"
+                       TextWrapping="Wrap" />
+            <TextBlock Text="ISBN: 0681331976"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,10" />
+
+            <TextBlock Text="Step-by-Step Baking by Caroline Bretherton"
+                       TextWrapping="Wrap" />
+            <TextBlock Text="ISBN: 9781405392709"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,10" />
+        </StackPanel>
+    </ScrollViewer>
+</Page>

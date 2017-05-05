@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="LearnToCook.EssentialTips"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnToCook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:data="using:LearnToCook">
+
+    <Page.Resources>
+        <DataTemplate x:DataType="data:Content"
+                      x:Key="PageContentTemplate">
+
+
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0"
+                       Grid.Row="0"
+                       Name="imgCover"
+                       Stretch="UniformToFill"
+                       Source="{x:Bind Image}" />
+                <TextBlock Grid.Row="1"
+                           Name="txtTitle"
+                           Text="{x:Bind Title}"
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource TitleTextBlockStyle}"
+                           VerticalAlignment="Center" />
+
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <TextBlock Name="mainPageTitle"
+                       Style="{StaticResource HeaderTextBlockStyle}"
+                       Margin="10" />
+            <TextBlock Name="mainPageSubtitle"
+                       Style="{StaticResource SubtitleTextBlockStyle}"
+                       Margin="10" />
+
+            <GridView Name="ContentGridView"
+                      ItemsSource="{x:Bind PageData.Content}"
+                      ItemTemplate="{StaticResource PageContentTemplate}"
+                      IsItemClickEnabled="True"
+                      ItemClick="GridView_ItemClick">
+
+            </GridView>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

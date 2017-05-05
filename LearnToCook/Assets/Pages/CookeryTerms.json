@@ -1,0 +1,174 @@
+{
+    "PageTitle": "Cookery Terms",
+    "Subtitle": "This is a commonsense app, so if there are terms which aren't familiar you should find them here.",
+    "CookeryTerms": [
+        {
+            "Term": "Al Dente",
+            "Explanation": "Italian phrase meaning 'to the tooth'. Refers to pasta and sometimes vegetables. Means slightly underdone, so still with some 'bite'."
+        },
+        {
+            "Term": "Bain-Marie",
+            "Explanation": "Also called a 'water-bath'. Usually a baking dish half-filled with water so delicate food is protected from direct heat. Often used for custards."
+        },
+        {
+            "Term": "Bake Blind",
+            "Explanation": "To bake an empty pastry case before the filling is added. Ensures the pastry is cooked through and not soggy. Usually lined with baking paper and baking beads or rice or beans so it keeps its shape."
+        },
+        {
+            "Term": "Baste",
+            "Explanation": "To spoon or brush cooking juices or other fat over food during cooking."
+        },
+        {
+            "Term": "Boil",
+            "Explanation": "To cook liquid, or food in liquid, at 100 degrees C. Large bubbles will break on the surface."
+        },
+        {
+            "Term": "Bouquet Garni",
+            "Explanation": "A small bunch of herbs used to flavour stocks, soups and stews. Removed before serving."
+        },
+        {
+            "Term": "Brown",
+            "Explanation": "To fry food (usually meat) quickly so the outside is cooked and changed colour."
+        },
+        {
+            "Term": "Cream",
+            "Explanation": "To beat butter or butter and sugar together until light and creamy."
+        },
+        {
+            "Term": "Cube",
+            "Explanation": "To chop food into even cubes. Usually bite-sized and for use in soups or stews so the size is not overly important."
+        },
+        {
+            "Term": "Dice",
+            "Explanation": "To chop food into very small even cubes."
+        },
+        {
+            "Term": "Drain",
+            "Explanation": "To remove liquid from food (usually with a colander or sieve). The food is kept and the liquid discarded unless specified."
+        },
+        {
+            "Term": "En Croute",
+            "Explanation": "Cooked entirely encased in pastry. Usually refers to meat."
+        },
+        {
+            "Term": "Escalope",
+            "Explanation": "Very thin slice of meat, such as veal or chicken."
+        },
+        {
+            "Term": "Fillet",
+            "Explanation": "To cut meat from the bones."
+        },
+        {
+            "Term": "Flambe",
+            "Explanation": "To pour liqueur over food (usually in the pan, over heat) and set fire to it."
+        },
+        {
+            "Term": "Fold",
+            "Explanation": "To mix one ingredient into another very gently (usually flour or egg whites) with a metal spoon or plastic spatula. The idea is to combine the mixture without losing the air. To fold properly, cut through the centre of the mixture, then run the edge of the spoon or spatula around the outer edge of the bowl, turning the bowl as you go."
+        },
+        {
+            "Term": "Glaze",
+            "Explanation": "A substance (often warmed jam or beaten egg) brushed over food to give it shine and colour."
+        },
+        {
+            "Term": "Grease",
+            "Explanation": "To lightly coat a tin or dish with oil or melted butter to prevent food sticking."
+        },
+        {
+            "Term": "Infuse",
+            "Explanation": "To flavour a liquid by heating it with aromatic ingredients (often spices) and leaving to let the flavour develop."
+        },
+        {
+            "Term": "Julienne",
+            "Explanation": "To cut into uniform thin matchsticks for quick cooking. Often used for stir-fries or in French cuisine."
+        },
+        {
+            "Term": "Knead",
+            "Explanation": "To stretch and fold dough to make it firm and smooth. This stretches the gluten in the flour and gives elasticity. Used for bread making but not for pastry making (over-handling will make pastry tough)."
+        },
+        {
+            "Term": "Marinate",
+            "Explanation": "To tenderize and flavour food (usually meat) by leaving it in an acidulated seasoned liquid (a marinade)."
+        },
+        {
+            "Term": "Parboil",
+            "Explanation": "To partially cook in boiling water before some other form of cooking. Most commonly used for roast potatoes which are parboiled before being added to the roasting meat."
+        },
+        {
+            "Term": "Pinch",
+            "Explanation": "A small amount of something - as much as can be held between your thumb and forefinger."
+        },
+        {
+            "Term": "Poach",
+            "Explanation": "To cook food immersed in a gently simmering liquid."
+        },
+        {
+            "Term": "Punch Down the Dough",
+            "Explanation": "A term used in break making. A yeast dough which is left to rise is then punched with one firm blow of the fist, to remove air from it."
+        },
+        {
+            "Term": "Puree",
+            "Explanation": "Food blended or processed to a pulp."
+        },
+        {
+            "Term": "Reduce",
+            "Explanation": "To boil or simmer liquid in an uncovered pan so that the liquid evaporates and the mixture becomes thicker and more concentrated in flavour. Most soups and stews are reduced - this should usually be done at a simmer so the flavour of the dish is not impaired by long hard boiling."
+        },
+        {
+            "Term": "Roux",
+            "Explanation": "The basic mixture of many sauces - fat (usually melted butter) and flour. Used to thicken. Liquid is added to make a sauce."
+        },
+        {
+            "Term": "Rub In",
+            "Explanation": "To mix together flour and butter with your fingertips, usually for pastry. It will resemble find breadcrumbs."
+        },
+        {
+            "Term": "Score",
+            "Explanation": "To ensure even cooking. Make incisions with a knife (usually into fish or meat) that do not cut all the way through."
+        },
+        {
+            "Term": "Sift",
+            "Explanation": "To shake dry ingredients (usually flour) through a sieve to aerate and remove lumps."
+        },
+        {
+            "Term": "Simmer",
+            "Explanation": "To cook liquid, or food in liquid, over low heat, below boiling poin. The surface of the liquid will be moving with a few small bubble."
+        },
+        {
+            "Term": "Skim",
+            "Explanation": "To remove fat or scum that comes to the surface or a liquid."
+        },
+        {
+            "Term": "Soft Peaks",
+            "Explanation": "A term used when egg whites are whipped. The peak will fold over on itself when the beater is lifted."
+        },
+        {
+            "Term": "Stiff Peaks",
+            "Explanation": "A term used when egg whites are whipped. The peak will hold its shape when the beater is lifted."
+        },
+        {
+            "Term": "Stir-Fry",
+            "Explanation": "To quickly fry (usually in a wok) over high heat while stirring."
+        },
+        {
+            "Term": "Strain",
+            "Explanation": "To remove solids from a liquid by pouring through a sieve. The solids are discarded, unless specified."
+        },
+        {
+            "Term": "Tbsp",
+            "Explanation": "This is a short abbreviation used in recipes to indicate table-spoon measurements."
+        },
+        {
+            "Term": "Tsp",
+            "Explanation": "This is a short abbreviation used in recipes to indicate tea-spoon measurements"
+        },
+        {
+            "Term": "Whisk",
+            "Explanation": "To beat rapidly with a wire whisk, to incorporate air and add volume."
+        },
+        {
+            "Term": "Zest",
+            "Explanation": "The coloured skin of citrous fruits. Avoid the bitter white pith below."
+        }
+    ]
+}

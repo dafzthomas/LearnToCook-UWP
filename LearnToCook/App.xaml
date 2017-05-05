@@ -1,0 +1,40 @@
+﻿<Application
+    x:Class="LearnToCook.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnToCook"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <Style x:Key="BackgroundBlue"
+               TargetType="Button">
+            <Setter Property="Background"
+                    Value="#3498db" />
+        </Style>
+
+        <Style x:Key="MenuButton"
+               TargetType="Button">
+            <Setter Property="Background"
+                    Value="Transparent" />
+            <Setter Property="FontSize"
+                    Value="24" />
+            <Setter Property="Height"
+                    Value="50" />
+            <Setter Property="Background"
+                    Value="Transparent" />
+            <Setter Property="Width"
+                    Value="225" />
+            <Setter Property="HorizontalContentAlignment"
+                    Value="Left" />
+        </Style>
+
+        <Style x:Key="BlueButton"
+               TargetType="Button">
+            <Setter Property="Background"
+                    Value="#3498db" />
+            <Setter Property="Foreground"
+                    Value="White" />
+        </Style>
+    </Application.Resources>
+
+</Application>

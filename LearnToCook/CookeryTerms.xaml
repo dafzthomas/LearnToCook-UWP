@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="LearnToCook.CookeryTerms"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnToCook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:data="using:LearnToCook">
+
+    <Page.Resources>
+        <DataTemplate x:DataType="data:CookeryTerm"
+                      x:Key="PageContentTemplate">
+
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Name="txtTerm"
+                           Text="{x:Bind Term}"
+                           TextWrapping="Wrap"
+                           Style="{StaticResource TitleTextBlockStyle}" />
+                <TextBlock Name="txtExplanation"
+                           TextWrapping="Wrap"
+                           Text="{x:Bind Explanation}" />
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer Background="White">
+            <StackPanel>
+                <StackPanel Margin="10">
+                    <TextBlock Name="mainPageTitle"
+                               Style="{StaticResource HeaderTextBlockStyle}"
+                               VerticalAlignment="Center" />
+                    <TextBlock Name="mainPageSubtitle"
+                               TextWrapping="Wrap"
+                               Style="{StaticResource SubtitleTextBlockStyle}" />
+                </StackPanel>
+
+                
+
+                <ListView Name="ContentListView"
+                          ItemsSource="{x:Bind PageCookeryTerms}"
+                          ItemTemplate="{StaticResource PageContentTemplate}"
+                          IsItemClickEnabled="False"
+                          IsHitTestVisible="False"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

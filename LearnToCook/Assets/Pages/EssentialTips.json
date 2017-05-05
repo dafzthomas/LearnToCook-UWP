@@ -1,0 +1,27 @@
+{
+    "PageTitle": "Essential Tips",
+    "Subtitle": "Once you have your equipment in place the best thing to do is practice. Carefully follow a new recipe the first couple of times you attempt it and you will soon find your confidence growing. You will start to understand how ingredients respond and work together so that, with time, you will be able to create your own alternative versions.",
+    "MainImage": "",
+    "Content": [
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/cakes.jpg?alt=media&token=2753b0f9-744e-45ea-8512-2bab9c51780d",
+        "Title": "Cakes",
+        "Text": "Should mostly be light and airy. Barring the heavier fruit varieties, most cakes rely on air being whisked into the mixture then carefully preserved by a light touch when folding in the flour, before cooking. Although butter gives a richer taste to the finished cake, baking margarine will produce a lovely, light result too."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/meringues.jpg?alt=media&token=f1caf1a7-edb9-4f4e-9dd6-5aa3f00f759b",
+        "Title": "Meringues",
+        "Text": "Need a scrupulously clean bowl and not a trace of yolk in the egg whites, or they will not whiskt well. A long, slow cook always helps. My oven is always too hot to produce a pure white meringue, so I counteract this by propping the door open slightly with the handle of a wooden spoon to allow the temperature to drop. Meringues that are cooled in the oven tend to crack less, too."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/pastry.jpg?alt=media&token=61dca4b8-9964-4aaa-bcb5-c4411b553460",
+        "Title": "Pastry",
+        "Text": "Is often seen as more challengine than it should be. 'Pastry hands' are basically just cool hands, helpful in preventing the fat from softening too much when preparing and rolling the pastry, which can cause it to end up greasy. If you're a little too warm-blooded, minimise contact by using a food processor to produce pastry crumbs, and even to bind the dough; also try to work in a cool kitchen and with chilled equipment. The real secret to making good pastry, however, is to use good-quality button and egg yolks (and a little water if necessary) to bind it together. Other than that, pastry must be rested in a cool place before rolling, as this allows the glutens in the flour to relax; otherwise they become springy and cause the pastry to shrink ns crack when baked. DO not over-flour surface, or the pastry will absorb too much flour. And handle pastry as little as possible, or it will become tough. Simple!"
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/fridge.jpg?alt=media&token=84ffdb22-6438-4cd4-a68f-0344662aca2d",
+        "Title": "Bread",
+        "Text": "Bread making is the thing that has the average home baker running scared. Many of us rely on a bread maker, but using your hands and really getting to know your dough is the only way to product top-quality bread at home. Yeast is a living organism and learning how it responds to time and temperature is a revelation. With thoughtful practice, you could be producing quality artisan breads and saving yourself a fortune. If something goes wrong, try to work out why - did you under or over knead the dough? DId it have enough time to rise the first time? Did it rise too quickly? Was it too warm? Was the loaf sufficiently proven before it went into the oven? Was the oven hot enough? These are all questions that may provide the answers to why a loaf came out less than perfect. \nStrangely enough, my most common fault is one that is easily rectified. I always want to cut into my loaves as soon as possible. If they have just come out of the oven, the steam created inside them will be continuing to cook the loaf inside. Cut into the bread too early and all this steam will escape. The loaf will be compressed by the cutting action, and the crumb will feel damp on first eating, only to go dry and hard afterwards. After all your patience in the process of making the load, surely it's worth waiting a little longer to produce a perfect crust and crumb?"
+      }
+    ]
+}

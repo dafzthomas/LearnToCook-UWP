@@ -1,0 +1,177 @@
+﻿<Page x:Class="LearnToCook.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:LearnToCook"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button x:Name="HamburgerButton"
+                    Grid.Column="0"
+                    Style="{StaticResource BlueButton}"
+                    FontFamily="Segoe MDL2 Assets"
+                    FontSize="24"
+                    Content="&#xE700;"
+                    Width="50"
+                    Height="50"
+                    Click="HamburgerButton_Click" />
+            <Border Grid.Column="1"
+                    Padding="10,0,0,0">
+                <TextBlock x:Name="AppHeaderTitle"
+                           Text="App Header Title"
+                           Style="{StaticResource TitleTextBlockStyle}"
+                           Margin="10,0,0,0"
+                           VerticalAlignment="Center" />
+            </Border>
+            
+        </Grid>
+
+        <SplitView x:Name="MySplitView"
+                   DisplayMode="CompactOverlay"
+                   IsPaneOpen="False"
+                   CompactPaneLength="0"
+                   OpenPaneLength="225"
+                   Grid.Row="1">
+
+            <SplitView.Pane>
+                <ScrollViewer>
+                    <StackPanel>
+
+                        <Button x:Name="HomeButton"
+                                Click="HomeButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xE80F;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="Home"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="KitchenManagementButton"
+                                Click="KitchenManagementButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xEC09;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="Kitchen"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="BasicKitchenEquipmentButton"
+                                Click="BasicKitchenEquipmentButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xEC7A;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="Kitchen Equipment"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="CookeryTermsButton"
+                                Click="CookeryTermsButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xE12F;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="Cookery Terms"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="EssentialTipsButton"
+                                Click="EssentialTipsButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xE104;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="Essential Tips"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="RecipeButton"
+                                Click="RecipeButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xE90A;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="Recipes"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="QuizButton"
+                                Click="QuizButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xE0A2;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="Quiz"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="MyFoodButton"
+                                Click="MyFoodButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xEC09;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="My Food"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="AboutButton"
+                                Click="AboutButton_Click"
+                                Style="{StaticResource MenuButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="&#xE897;"
+                                           FontFamily="Segoe MDL2 Assets"
+                                           Margin="0,0,10,0" />
+                                <TextBlock Text="About"
+                                           FontSize="18" />
+                            </StackPanel>
+                        </Button>
+
+                    </StackPanel>
+                </ScrollViewer>
+                
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Frame x:Name="pageFrame">
+                    <Frame.ContentTransitions>
+                        <TransitionCollection>
+                            <NavigationThemeTransition>
+                                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                                    <EntranceNavigationTransitionInfo />
+                                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                            </NavigationThemeTransition>
+                        </TransitionCollection>
+                    </Frame.ContentTransitions>
+                </Frame>
+            </SplitView.Content>
+        </SplitView>
+    </Grid>
+</Page>

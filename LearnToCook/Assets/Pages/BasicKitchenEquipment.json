@@ -1,0 +1,82 @@
+{
+    "PageTitle": "Basic Equipment",
+    "Subtitle": "A good cook needs good tools. Buy the best you can afford and look after them - they'll last you for years.",
+    "MainImage": "",
+    "Content": [
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/knives.jpg?alt=media&token=a229de38-ba1d-459f-ba7b-ea9529d8960e",
+        "Title": "Knives",
+        "Text": "Quality knives are expensive but it is worth saving up for stainless steel or carbon steel knives. To keep your knives sharp, use a steel and stone and make sure you cut on a chopping board."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/whisk.jpg?alt=media&token=0832922c-acd1-4df8-b63e-3f84cee1db97",
+        "Title": "Whisk",
+        "Text": "A wire whisk is essential for beating egg whites - nothing else can incorporate as much air."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/large_metal_spoon.jpg?alt=media&token=11fc87d6-4a7f-41a4-a01c-205aae7fbe18",
+        "Title": "Large Metal Spoon",
+        "Text": "Ideal for folding mixtures together without losing volume, and skimming froth from stocks."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/wooden_spoon.jpg?alt=media&token=e17cc617-9553-4cb4-930f-ef34185a9bd2",
+        "Title": "Wooden Spoon",
+        "Text": "Perfect for long stirring jobs, since their handles don't get hot. Best for use with non-stick pans."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/spatula.jpg?alt=media&token=623638b6-2fcc-4f2d-8164-a4c391f35b47",
+        "Title": "Spatula",
+        "Text": "Flexible rubber spatulas are ideal for folding in, and for getting every bit of cake mix out of the bowl."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/tongs.jpg?alt=media&token=75a108bc-eb7e-4145-b4b4-c2ec66717a65",
+        "Title": "Tongs",
+        "Text": "Use tongs to turn frying food or pick vegetables out of boiling water."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/peeler.jpg?alt=media&token=1f144e4c-0e16-4579-bb7f-278d3c343251",
+        "Title": "Peeler",
+        "Text": "Peels vegetable skins and the tip removes 'eyes'. Shaves Parmesan."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/ladle.jpeg?alt=media&token=aaa29107-1624-4e33-b16b-0110b4fc3032",
+        "Title": "Ladle",
+        "Text": "For safely spooning hot soups and stews from a pan."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/rolling_pin.jpg?alt=media&token=f6f88739-6179-4270-a9b9-28c5994b3604",
+        "Title": "Rolling Pin",
+        "Text": "Rolls pastry and pizza dough, beats veal, chicken or steak to flatten fillets, and crushes biscuits."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/saucepans.jpg?alt=media&token=877ff667-8eb8-4025-9ba7-b4127f5e86eb",
+        "Title": "Saucepans",
+        "Text": "Stainless steel is the best material, even better if it has a heavy copper base. Most recipes state a 'heavy based pan' as this distributes heat more evenly. A very large saucepan or stock pot is needed to cook pasta and stock."
+      },
+      {
+        "Image": "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/frying-pan.jpg?alt=media&token=327ca4a0-d1a7-4f4f-93ce-494c0673ef6f",
+        "Title": "Frying Pan",
+        "Text": "A non-stick deep frying pan will reduce the amount of oil needed and can be used for stir-frying if you don't have a wok. An overproof pan with a metal handle can go straight from stove top to over or grill for browning. Otherwise, cover the handle with foil."
+      },
+      {
+        "Image": "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/baking-dish.jpg?alt=media&token=b93610e4-b17b-4d21-8d22-a1c7a8a59620",
+        "Title": "Baking Dish",
+        "Text": "You'll need a baking dish for roasting meat and vegetables. Buy one with rack so the fat can drip down into the pan. Make sure it's heavy enough to put on top of the stove without warping. When stirring gravy, use a plastic or wooden spoon to prevent scratching."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/mixing-bowl.jpg?alt=media&token=4ada793d-6b57-4dcf-92fb-b7a1a89ac590",
+        "Title": "Mixing Bowl",
+        "Text": "The best all-purpose mixing bowls also double as pudding basins. Use them to make cakes, beat cream, and a hundred other kitchen tasks. As long as they have no metal trim, china or ceramic mixing bowls are ideal for  cooking or heating food in a microwave."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/casserole-dish.jpg?alt=media&token=ddde1938-18f9-4715-8738-8c97e27fd462",
+        "Title": "Casserole Dish",
+        "Text": "Make sure your casserole dish has a tight-fitting lid and is a generous size. You can use ceramic dishes for oven only, but a good flameproof dish can go straight from oven to stove top if you need to reduce a sauce over heat. Pyrex casserole dishes are also available."
+      },
+      {
+        "Image":  "https://firebasestorage.googleapis.com/v0/b/recipes-app-b0961.appspot.com/o/colander.jpg?alt=media&token=e1396d28-c471-431e-a7e8-8a2db1c707ce",
+        "Title": "Colander",
+        "Text": "Ideal for draining pasta, vegetables or anything else cooking in liquid (except small items, such as rice, which may need a strainer). Also ideal for washing salad leaves or placing on top of a saucepan to steam vegetables."
+      }
+    ]
+}
